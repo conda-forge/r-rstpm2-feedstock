@@ -36,6 +36,7 @@ requirements:
     - libblas
     - liblapack
     - r-base
+    - r-bh
     - r-rcpp >=0.10.2
     - r-rcpparmadillo
     - r-bbmle >=1.0.20
@@ -48,6 +49,7 @@ requirements:
     - liblapack
     - r-base
     - {{ native }}gcc-libs         # [win]
+    #- r-bh
     - r-rcpp >=0.10.2
     - r-rcpparmadillo
     - r-bbmle >=1.0.20
