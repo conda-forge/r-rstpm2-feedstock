@@ -1,4 +1,4 @@
-{% set version = "1.6.1" %}
+{% set version = "1.6.2" %}
 {% set posix = 'm2-' if win else '' %}
 {% set native = 'm2w64-' if win else '' %}
 
@@ -10,7 +10,7 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/rstpm2_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/rstpm2/rstpm2_{{ version }}.tar.gz
-  sha256: 144bd5f13f0c82361949f299500beb5cb72c2fea25d12ff40280089b1e687778
+  sha256: 064ec8c56ecbff44cae7a5acf307838d4558a3c0ab5b2c4d50da8a1a9d0bade3
 
 build:
   merge_build_host: true  # [win]
