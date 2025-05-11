@@ -1,4 +1,4 @@
-{% set version = "1.6.6.1" %}
+{% set version = "1.6.7" %}
 {% set posix = 'm2-' if win else '' %}
 
 package:
@@ -9,7 +9,7 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/rstpm2_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/rstpm2/rstpm2_{{ version }}.tar.gz
-  sha256: 5a5c3499399af231a6750285f2b54186586efcb4ffc909fa291dfe3385aabfe7
+  sha256: 0d9e0a3d503a10f07bbc4c47a1e823b33dccfeb4bbf4d7bbca0b51c6aeb32c37
 
 build:
   number: 0
